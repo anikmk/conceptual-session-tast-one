@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#manubar{
+    background-color: rgb(43, 42, 42);
+    
+}
+.logo {
+    width: 150px;
+    
+}
+.manubar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.manu-list{
+    display: flex;
+    
+}
+.manu-list ul{
+    list-style: none;
+    padding: 25px 5px;
+    
+    
+}
+.manu-list ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    transition: 0.2s ease;
+}
+.manu-list ul li a:hover {
+    background-color: #242424;
+    
+}
+
+/* home section */
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+    background-image:url('images/background.png'), linear-gradient(to right,black,rgba(42, 42, 42, 0.933));
+    color: #fff;
+}
+.banner-img{
+    width: 400px;
+}
+.home-text h1{
+    width: 550px;
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home-text p{
+    margin-bottom: 10px;
+    font-size: large;
+
+}
+.home-text button{
+    padding: 12px 20px;
+    margin-top: 8px;
+    border: none;
+    background-color: rgb(9, 9, 9);
+    color: #fff;
+    font-size: 16px;
+    box-shadow: -2px 2px 10px 2px #2d2a2a;
+    cursor: pointer;
+}
+.home-text button:hover {
+    background-color: black;
+    border: 1px solid #4f3636;
+    
+}
+
+/* about section edit */
+
+.about-section{
+    padding: 60px 0px;
+    background-color: #0f0e0e;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    
+}
+.aboutimg {
+    width: 350px;
+}
+.abouttext{
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(208, 208, 208);
+    width: 170px;
+}
+
+.about-text h3{
+    font-size: 30px;
+    margin-bottom: 12px;
+
+}
+.about-text p{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.about-text button {
+    padding: 12px 20px;
+    margin-top: 8px;
+    border: none;
+    background-color: rgb(9, 9, 9);
+    color: #fff;
+    font-size: 16px;
+    box-shadow: -2px 2px 10px 2px #2d2a2a;
+    cursor: pointer;
+}
+.about-text button:hover{
+    background-color: black;
+    border: 1px solid #4f3636;
+}
+/* survicess desing  */
+#survicces{
+    background-color: #121212;
+    padding: 50px 0px;
+    
+}
+.Services-container  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.singlebox{
+   
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    
+}
+.singlebox img {
+    width: 70px;
+}
+
+.singlebox h3 {
+    margin: 10px 0px;
+}
+.singlebox button{
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(9, 9, 9);
+    color: #fff;
+    font-size: 16px;
+    box-shadow: -2px 2px 10px 2px #1a1919;
+    cursor: pointer;
+}
+.singlebox button:hover {
+    background-color: black;
+    border: 1px solid #222121;
+}
+.abouttext2 {
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff;
+    width: 230px;
+
+}
+#footer {
+    background-color: #0f0e0e;
+    padding: 50px 0px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.singlefooter img {
+    width: 90px;
+    margin-bottom: 8px;
+}
+.singlefooter{
+    
+    width: 190px;
+    height: 130px;
+    color: #fff;
+    padding: 15px;
+    
+    
+}
+.singlefooter p {
+    line-height: 20px;
+}
+.copyrighttext {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    
+}
